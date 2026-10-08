@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 stages {
 
     stage('Checkout') {
@@ -45,6 +44,6 @@ post {
         echo 'Pipeline failed. Please check the console output.'
     }
 }
-```
+
 
 }
